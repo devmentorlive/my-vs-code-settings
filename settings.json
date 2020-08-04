@@ -1,0 +1,61 @@
+{
+  "editor.fontSize": 20,
+  "editor.tabSize": 2,
+  "vim.cursorStylePerMode.insert": "line-thin",
+  "vim.cursorStylePerMode.normal": "block",
+  "workbench.startupEditor": "none",
+  "emmet.includeLanguages": {
+    "*.erb": "erb"
+  },
+  "[ruby]": {
+    "editor.formatOnSave": true
+  },
+  "window.zoomLevel": 2,
+  "vim.useSystemClipboard": true,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": true,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.fontFamily": "Inconsolata, Menlo, Monaco, 'Courier New', monospace",
+  // Controls if quick suggestions should show up while typing
+  "editor.quickSuggestions": {
+    "comments": false,
+    "strings": false
+  },
+
+  // OPTIONAL WORD WRAPPING
+  // Controls if lines should wrap. The lines will wrap at min(editor.wrappingColumn, viewportWidthInColumns).
+  "editor.wordWrap": "off",
+
+  // Controls the indentation of wrapped lines. Can be one of 'none', 'same' or 'indent'.
+  "editor.wrappingIndent": "none",
+
+  // Controls the delay in ms after which quick suggestions will show up
+  "editor.quickSuggestionsDelay": 90,
+
+  "typescript.suggest.enabled": false,
+
+  "javascript.suggest.enabled": false,
+
+  // Controls if the editor should automatically format the line after typing
+  "editor.formatOnType": false,
+
+  // Controls if suggestions should automatically show up when typing trigger characters
+  "editor.suggestOnTriggerCharacters": false,
+
+  // Controls if suggestions should be accepted 'Enter' - in addition to 'Tab'. Helps to avoid ambiguity between inserting new lines or accepting suggestions.
+  "editor.acceptSuggestionOnEnter": "off",
+
+  // Enable parameter hints
+  "editor.parameterHints.enabled": false,
+  "editor.stablePeek": false,
+  "emmet.triggerExpansionOnTab": true,
+
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.lineHeight": 1.2,
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true
+}
